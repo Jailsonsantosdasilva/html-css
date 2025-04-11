@@ -18,6 +18,13 @@
             padding: 10px;
         }
 
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         thead{
             background-color: gray;
             color: white;
@@ -41,12 +48,13 @@
          TR, TD, TH
     -->
     <table>
+        <caption>População das unidades Federativas</caption>
         <thead>
             <tr>
-                <th>
+                <th scope="col">
                     Estado
                 </th>
-                <th>
+                <th scope="col" style="width: 50px;">
                     População
                 </th>
 
@@ -80,7 +88,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>
+                <th scope="row">
                     Total de Habitantes
                 </th>
                 <td><strong>210.147.125</strong></td>
