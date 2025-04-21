@@ -20,7 +20,7 @@ header > h1{
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
     menu > ul{
@@ -37,8 +37,23 @@ menu {
             border-top: 2px solid gray;
         }
 
+        #menu{
+            background-color: rgb(77, 77, 77);
+            color: white;
+            display: block;
+            text-align: center;
+            padding: 10px;
+        }
+
+        #menu:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+
         menu > ul > li > a:hover{
             background-color: rgba(174, 174, 174, 0.812);
+
         }
 
         main {
